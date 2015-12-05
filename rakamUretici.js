@@ -1,5 +1,4 @@
-/*	BBY261 Sayısal Loto Uygulaması
-Ertuğrul Danacı, Hacettepe Üniversitesi, Bilgi ve Belge Yönetimi Bölümü	*/
+/* BBY261 Sayısal Loto Uygulaması */
 
 function sayisalLoto(){
 	var rakamlar = new Array(49); //Çekiliş yapılacak sayıların dizisi
