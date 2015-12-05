@@ -5,7 +5,7 @@ function sayisalLoto(){
 	var rakamlar = new Array(49); //Çekiliş yapılacak sayıların dizisi
 	var loto = new Array(6); //Oynanacak kolonun dizisi
 	
-	document.write("Bugün şanslı gününde misin Serseri?")
+	document.write('<center><img src="sayisalLotoLogo.jpg"></center>');
 	for(var i=0; i<49; i++){ //Rakam havuzunun oluşturulması
 		rakamlar[i]=i+1;
 	}
