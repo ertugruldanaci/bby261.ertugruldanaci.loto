@@ -1,9 +1,11 @@
+<!-- BBY261 Sayısal Loto Uygulaması Ertuğrul Danacı -->
+
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "bby261.ertugruldanaci.loto"
         versionCode = "1" 
-        version     = "0.0.1" >
+        version     = "0.2.1" >
 
     <!-- Standart Uygulama Verileri -->
 

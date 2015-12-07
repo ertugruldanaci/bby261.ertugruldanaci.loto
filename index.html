@@ -1,4 +1,6 @@
-<!-- BBY261 Adam Asmaca Uygulaması -->
+<!-- BBY261 Adam Asmaca Uygulaması 
+<a href="" onClick= <script src="rakamUretici.js"></script> <center><img src=buton.png width="160" height="90"/></center> </a>
+-->
 
 <!DOCTYPE html>
 <html>
@@ -6,9 +8,22 @@
         <meta charset="utf-8"/>
         <title>bby261.ertugruldanaci.loto</title>
 		<link rel="stylesheet" type="text/css" href="stil.css"/>
-		<script src="rakamUretici.js"></script>
+		<script LANGUAGE="JavaScript"> 
+			var x = 0;
+			function kontrol(){
+				if(x>=5){
+					document.write('<center><img src="suprise.png" width=100% ></center>');
+					x=0;
+				}
+				x = x + 1;
+			}
+		</script>
     </head>
     <body>
-		<a href="" onClick= <script src="rakamUretici.js"></script> <center><img src=buton.png width="160" height="90"/></center> </a>
+		<center>
+			<button id="resimGösterButonu" onclick="kontrol()" > <img src="sayisalLotoLogo.jpeg" width="116" height="70" /> </button>
+			<script src="rakamUretici.js"></script>
+			<button id="yenidenBaslatButonu" onclick="location.reload()" ><img src="buton.png" width="160" height="90" /></button>
+		</center>
     </body>
 </html>

@@ -1,10 +1,15 @@
-/* BBY261 Sayısal Loto Uygulaması */
+/* BBY261 Sayısal Loto Uygulaması 
+var x = 0 ;
+x = x + 1 ;
+if (x==3){
+	document.write('<center><img src="sayisalLotoLogo.jpeg"></center>
+}*/
 
 function sayisalLoto(){
 	var rakamlar = new Array(49); //Çekiliş yapılacak sayıların dizisi
 	var loto = new Array(6); //Oynanacak kolonun dizisi
 	
-	document.write('<center><img src="sayisalLotoLogo.jpg"></center>');
+	/*document.write('<center><img src="sayisalLotoLogo.jpeg"></center>');*/
 	for(var i=0; i<49; i++){ //Rakam havuzunun oluşturulması
 		rakamlar[i]=i+1;
 	}

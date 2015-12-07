@@ -4,3 +4,29 @@ body{
 	font-family: Verdana;
 	text-align: center;
 }
+#resimGösterButonu{
+	background-color: transparent;
+    border: 2px outset transparent;	
+}
+#resimGösterButonu:hover{ /* Üstüne gelince yap */
+	background-color: transparent;
+    border: 2px outset transparent;	
+}
+#resimGösterButonu:active{ /* Tıklayınca yap */
+	background-color: transparent;
+    border: 2px outset transparent;
+}
+#yenidenBaslatButonu {
+	background-color: #F4CDB7;
+}
+#yenidenBaslatButonu:hover{ /* Üstüne gelince yap */
+	background-color: #7982F3;
+    border: 2px outset #F51A92;	
+}
+#yenidenBaslatButonu:active{ /* Tıklayınca yap */
+	background-color: #008080;
+    border: 2px outset #F51A92;
+    position:relative;
+    top:1px;
+	
+}
